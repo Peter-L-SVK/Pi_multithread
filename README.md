@@ -15,7 +15,7 @@ For benchmark, you can use becnchmarking Bash script in this repo, which rans al
 Script is prebuilding each program by raning cargo and only mesuring the runtime of binary.
 
 Dependencies: 
-- Cargo\
-- Rust langugage\
+- Cargo
+- Rust langugage
 
 This example was created Linux Fedora 40.
