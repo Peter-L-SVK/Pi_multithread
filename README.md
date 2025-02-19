@@ -35,6 +35,8 @@ A **benchmarking Bash script** is included in this repository. It:
 - Pre-builds each program using `cargo` and measures only the **binary runtime**
 - After completion log file with results is created
 
+[View Benchmark Results](https://raw.githubusercontent.com/Peter-L-SVK/Pi_multithread/refs/heads/main/benchmark_results.log)
+
 ## **Dependencies**
 Make sure you have the following installed:  
 - **Rust and Cargo** (Rust’s package manager)  
