@@ -14,7 +14,7 @@ You can also change number of points manually in same fasion with: < let total_p
 For benchmark, you can use becnchmarking Bash script in this repo, which rans all of four examples ten times and averaging their run time.
 Script is prebuilding each program by raning cargo and only mesuring the runtime of binary.
 
-Dependencies: \
+Dependencies: 
 - Cargo\
 - Rust langugage\
 
