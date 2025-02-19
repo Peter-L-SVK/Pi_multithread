@@ -10,3 +10,5 @@ To ensure code working properly, set number of threads manually in main.rs insid
 according to number of threads on your CPU model
 
 You can also change number of points manually in same fasion with: < let total_points: u64 = > 
+
+For benchmark, you can use becnchmarking Bash script in this repo, which rans all of four examples ten times and averaging their run time.
