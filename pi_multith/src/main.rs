@@ -19,8 +19,8 @@ fn main() {
             let mut local_hits: u64 = 0;
 
             for _ in 0..points_per_thread {
-                let x: f64 = rng.gen();
-                let y: f64 = rng.gen();
+                let x: f64 = rng.random();
+                let y: f64 = rng.random();
 
                 if x * x + y * y <= 1.0 {
                     local_hits += 1;
