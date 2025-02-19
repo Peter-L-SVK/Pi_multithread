@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define project directories dynamically
-projects=( $(find ~<your-path-to/Pi_multithread>-maxdepth 1 -type d -name 'pi_*') )
+projects=( $(find ~<your_path>/Pi_multithread -maxdepth 1 -type d -name 'pi_*') )
 
 # Number of runs per project
 runs=10
@@ -51,6 +51,9 @@ run_benchmark() {
 
         echo "$formatted_time seconds" | tee -a "$log_file"
         total_time=$(echo "$total_time + $total_seconds" | bc)
+
+	# Extract the last printed value of π
+        last_pi_value=$(echo "$raw_output" | grep -oP '(?<=Estimated value of π: )\d+\.\d+')
     done
 
     # Calculate average if valid data is collected
@@ -61,6 +64,7 @@ run_benchmark() {
     fi
 
     echo "Average real time for $project_name: $avg_time seconds" | tee -a "$log_file"
+    echo "Computed π value (last run): $last_pi_value" | tee -a "$log_file"
     echo "-----------------------------------" | tee -a "$log_file"
 }
 
