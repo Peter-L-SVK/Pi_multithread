@@ -1,0 +1,12 @@
+/home/xgf/Desktop/rust/pi_multith/target/release/deps/librand_core-82f7cce89fd814a0.rmeta: /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/lib.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/block.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/error.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/impls.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/le.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/os.rs
+
+/home/xgf/Desktop/rust/pi_multith/target/release/deps/librand_core-82f7cce89fd814a0.rlib: /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/lib.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/block.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/error.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/impls.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/le.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/os.rs
+
+/home/xgf/Desktop/rust/pi_multith/target/release/deps/rand_core-82f7cce89fd814a0.d: /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/lib.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/block.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/error.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/impls.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/le.rs /home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/os.rs
+
+/home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/lib.rs:
+/home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/block.rs:
+/home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/error.rs:
+/home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/impls.rs:
+/home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/le.rs:
+/home/xgf/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.6.4/src/os.rs:
