@@ -12,7 +12,7 @@ according to number of threads on your CPU model
 You can also change number of points manually in same fasion with: < let total_points: u64 = > (currently set to 1 bilion)
 
 For benchmark, you can use becnchmarking Bash script in this repo, which rans all of four examples ten times and averaging their run time.
-Script is prebuilding each program by raning cargo and only mesuring the runtime of binary.
+Script is prebuilding each program by raning cargo and only mesuring the runtime of the binary itself.
 
 Dependencies: 
 - Cargo
