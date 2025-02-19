@@ -1,54 +1,62 @@
 Benchmarking Rust Pi Calculations...
 Running /home/xgf/Desktop/rust/Pi_multithread/pi_multith...
-Run 1: 5.420 seconds
-Run 2: 7.670 seconds
-Run 3: 5.340 seconds
-Run 4: 5.390 seconds
-Run 5: 5.320 seconds
-Run 6: 5.400 seconds
-Run 7: 5.340 seconds
-Run 8: 7.800 seconds
-Run 9: 5.440 seconds
-Run 10: 5.380 seconds
-Average real time for pi_multith: 5.850 seconds
+Run 1: 0.390 seconds
+Run 2: 0.380 seconds
+Run 3: 0.400 seconds
+Run 4: 0.380 seconds
+Run 5: 0.390 seconds
+Run 6: 0.380 seconds
+Run 7: 0.380 seconds
+Run 8: 0.380 seconds
+Run 9: 0.380 seconds
+Run 10: 0.380 seconds
+Average real time for pi_multith: .384 seconds
+Computed π value (last run): Estimated value of π: 3.1416629039999999228882643365068361163139343261718750000000000000000000000000000000000000000000000000
+Computed π value (last run): 
 -----------------------------------
 Running /home/xgf/Desktop/rust/Pi_multithread/pi_rayon_atomic64...
-Run 1: 0.420 seconds
-Run 2: 0.410 seconds
-Run 3: 0.420 seconds
-Run 4: 0.420 seconds
-Run 5: 0.420 seconds
-Run 6: 0.420 seconds
-Run 7: 0.420 seconds
-Run 8: 0.420 seconds
+Run 1: 0.400 seconds
+Run 2: 0.400 seconds
+Run 3: 0.400 seconds
+Run 4: 0.400 seconds
+Run 5: 0.400 seconds
+Run 6: 0.390 seconds
+Run 7: 0.400 seconds
+Run 8: 0.400 seconds
 Run 9: 0.400 seconds
 Run 10: 0.400 seconds
-Average real time for pi_rayon_atomic64: .415 seconds
+Average real time for pi_rayon_atomic64: .399 seconds
+Computed π value (last run): Estimated value of π: 3.1415684439999997934478415118064731359481811523437500000000000000000000000000000000000000000000000000
+Computed π value (last run): 
 -----------------------------------
 Running /home/xgf/Desktop/rust/Pi_multithread/pi_rayon...
-Run 1: 0.540 seconds
-Run 2: 0.530 seconds
-Run 3: 0.530 seconds
-Run 4: 0.550 seconds
-Run 5: 0.550 seconds
-Run 6: 0.550 seconds
-Run 7: 0.520 seconds
-Run 8: 0.530 seconds
-Run 9: 0.510 seconds
-Run 10: 0.540 seconds
-Average real time for pi_rayon: .535 seconds
+Run 1: 0.380 seconds
+Run 2: 0.400 seconds
+Run 3: 0.400 seconds
+Run 4: 0.390 seconds
+Run 5: 0.400 seconds
+Run 6: 0.400 seconds
+Run 7: 0.400 seconds
+Run 8: 0.390 seconds
+Run 9: 0.390 seconds
+Run 10: 0.400 seconds
+Average real time for pi_rayon: .395 seconds
+Computed π value (last run): Estimated value of π: 3.1415652359999999276851667673327028751373291015625000000000000000000000000000000000000000000000000000
+Computed π value (last run): 
 -----------------------------------
 Running /home/xgf/Desktop/rust/Pi_multithread/pi_rayon_atomic64_xoshiro...
-Run 1: 0.230 seconds
-Run 2: 0.230 seconds
-Run 3: 0.230 seconds
-Run 4: 0.220 seconds
-Run 5: 0.230 seconds
-Run 6: 0.230 seconds
-Run 7: 0.230 seconds
-Run 8: 0.230 seconds
-Run 9: 0.230 seconds
-Run 10: 0.230 seconds
-Average real time for pi_rayon_atomic64_xoshiro: .229 seconds
+Run 1: 0.150 seconds
+Run 2: 0.150 seconds
+Run 3: 0.150 seconds
+Run 4: 0.150 seconds
+Run 5: 0.150 seconds
+Run 6: 0.150 seconds
+Run 7: 0.150 seconds
+Run 8: 0.150 seconds
+Run 9: 0.150 seconds
+Run 10: 0.150 seconds
+Average real time for pi_rayon_atomic64_xoshiro: .150 seconds
+Computed π value (last run): Estimated value of π: 3.1412688000000001942169092217227444052696228027343750000000000000000000000000000000000000000000000000
+Computed π value (last run): 
 -----------------------------------
 All benchmarks completed.

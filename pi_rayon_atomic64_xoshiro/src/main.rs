@@ -1,7 +1,5 @@
 use rayon::prelude::*;
-use rand::Rng; // Import the Rng trait
-use rand_xoshiro::rand_core::SeedableRng; // Import SeedableRng for seeding
-use rand_xoshiro::Xoshiro256PlusPlus; // Import the Xoshiro256PlusPlus PRNG
+use rand_xoshiro::{rand_core::{SeedableRng, RngCore}, Xoshiro256PlusPlus};
 use std::sync::atomic::{AtomicU64, Ordering};
 
 fn main() {
@@ -17,8 +15,8 @@ fn main() {
         let mut local_hits: u64 = 0;
 
         for _ in 0..(total_points / num_threads as u64) {
-            let x: f64 = rng.gen(); // Generate a random f64
-            let y: f64 = rng.gen(); // Generate another random f64
+            let x = (rng.next_u64() as f64) / (u64::MAX as f64); // Generate random f64
+            let y = (rng.next_u64() as f64) / (u64::MAX as f64); // Generate another random f64
 
             if x * x + y * y <= 1.0 {
                 local_hits += 1;

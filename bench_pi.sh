@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define project directories dynamically
-projects=( $(find ~<your_path>/Pi_multithread -maxdepth 1 -type d -name 'pi_*') )
+projects=( $(find ~/Desktop/rust/Pi_multithread -maxdepth 1 -type d -name 'pi_*') )
 
 # Number of runs per project
 runs=10
@@ -64,6 +64,8 @@ run_benchmark() {
     fi
 
     echo "Average real time for $project_name: $avg_time seconds" | tee -a "$log_file"
+    computed_pi=$("$binary" | tail -n 1)
+    echo "Computed π value (last run): $computed_pi" | tee -a "$log_file"
     echo "Computed π value (last run): $last_pi_value" | tee -a "$log_file"
     echo "-----------------------------------" | tee -a "$log_file"
 }
