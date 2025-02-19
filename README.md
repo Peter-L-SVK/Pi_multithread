@@ -1,21 +1,37 @@
-# Calculation of Pi numerals by multithreding method using Rust
+# **Calculation of Pi Using Multithreading in Rust**  
 
-Here are an examples of a Rust program that calculates the value of π using a Monte Carlo method with multithreading. The Monte Carlo method involves randomly generating points in a unit square and determining the ratio of points that fall within a quarter-circle to the total number of points. 
+This repository contains examples of Rust programs that calculate the value of π using the Monte Carlo method with multithreading.  
 
-Exaples are running using native multithread and Rayon freamework for multithreading.
+The **Monte Carlo method** works by randomly generating points within a unit square and determining the ratio of points that fall inside a quarter-circle to the total number of points.  
 
-My CPU is R9 5950X. \
-Programms are set to !!!**24 threads**!!! and **1_000_000_000 points**!!!
-To ensure code working properly, set number of threads manually in **main.rs** inside each of src directory: < **let num_threads =**>
-according to number of threads on your CPU model
+### **Implementations**
+There are four implementations in this repository:
+- **Native Rust multithreading** using \`std::thread\`
+- **Rayon framework** for parallel execution
 
-You can also change number of points manually in same fasion with: < **let total_points: u64 =**> (currently set to 1 bilion)
+### **System Used for Testing**
+These programs were tested on a **Ryzen 9 5950X** CPU.  
+By default, they are set to **24 threads** and **1,000,000,000 points**.  
 
-For benchmark, you can use becnchmarking Bash script in this repo, which rans all of four examples ten times and averaging their run time.
-Script is prebuilding each program by raning cargo and only mesuring the runtime of the binary itself.
+### **How to Modify Thread Count and Points**
+To ensure the code runs correctly on your system, manually set the number of threads in each implementation.  
 
-Dependencies: 
-- Cargo
-- Rust langugage
+In each \`src/main.rs\` file, update:  
+\`\`\`rust
+let num_threads = <your CPU thread count>;
+\`\`\`
+You can also change the total number of points:  
+\`\`\`rust
+let total_points: u64 = <your desired number of points>;
+\`\`\`
 
-This example was created Linux Fedora 40.
+### **Benchmarking**
+A **benchmarking Bash script** is included in this repository. It:  
+- Runs all four implementations **10 times**  
+- Averages their execution time  
+- Pre-builds each program using \`cargo\` and measures only the **binary runtime**  
+
+### **Dependencies**
+Make sure you have the following installed:  
+- **Rust and Cargo** (Rust’s package manager)  
+- A **Linux environment** (Tested on Fedora 40) 
