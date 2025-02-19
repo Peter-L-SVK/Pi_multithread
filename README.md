@@ -4,7 +4,7 @@ Here are an examples of a Rust program that calculates the value of π using a M
 
 Exaples are running using native multithred and Rayon freamework for multithreading.
 
-My CPU is R9 5950X.
+My CPU is R9 5950X. \
 Programms are set to 24 threads and 1_000_000_000 points!!!
 To ensure code working properly, set number of threads manually in main.rs inside each of src directory: < let num_threads = >
 according to number of threads on your CPU model
