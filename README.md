@@ -32,7 +32,8 @@ let total_points: u64 = <your desired number of points>;
 A **benchmarking Bash script** is included in this repository. It:  
 - Runs all four implementations **10 times**  
 - Averages their execution time  
-- Pre-builds each program using `cargo` and measures only the **binary runtime**  
+- Pre-builds each program using `cargo` and measures only the **binary runtime**
+- After completion log file with results is created
 
 ## **Dependencies**
 Make sure you have the following installed:  
