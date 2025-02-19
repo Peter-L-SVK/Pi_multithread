@@ -4,30 +4,37 @@ This repository contains examples of Rust programs that calculate the value of Ï
 
 The **Monte Carlo method** works by randomly generating points within a unit square and determining the ratio of points that fall inside a quarter-circle to the total number of points.  
 
-### **Implementations**
+## **Implementations**
 There are four implementations in this repository:
-- **Native Rust multithreading** using \`std::thread\`
-- **Rayon framework** for parallel execution
+- **Native Rust multithreading** using `std::thread`
+- **Rayon framework** for parallel execution  
 
-### **System Used for Testing**
+## **System Used for Testing**
 These programs were tested on a **Ryzen 9 5950X** CPU.  
 By default, they are set to **24 threads** and **1,000,000,000 points**.  
 
-### **How to Modify Thread Count and Points**
+## **How to Modify Thread Count and Points**
 To ensure the code runs correctly on your system, manually set the number of threads in each implementation.  
 
-In each \`src/main.rs\` file, update:  
-let num_threads = <your CPU thread count>;
-You can also change the total number of points:  
-let total_points: u64 = <your desired number of points>;
+In each `src/main.rs` file, update:
 
-### **Benchmarking**
+```rust
+let num_threads = <your CPU thread count>;
+```
+
+You can also change the total number of points:
+
+```rust
+let total_points: u64 = <your desired number of points>;
+```
+
+## **Benchmarking**
 A **benchmarking Bash script** is included in this repository. It:  
 - Runs all four implementations **10 times**  
 - Averages their execution time  
-- Pre-builds each program using \`cargo\` and measures only the **binary runtime**  
+- Pre-builds each program using `cargo` and measures only the **binary runtime**  
 
-### **Dependencies**
+## **Dependencies**
 Make sure you have the following installed:  
 - **Rust and Cargo** (Rustâ€™s package manager)  
-- A **Linux environment** (Tested on Fedora 40) 
+- A **Linux environment** (Tested on Fedora 40)  
