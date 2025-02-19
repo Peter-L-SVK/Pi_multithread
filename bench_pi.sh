@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define project directories dynamically
-projects=( $(find ~/<YOUR_PATH>/Pi_multithread -maxdepth 1 -type d -name 'pi_*') )
+projects=( $(find . -maxdepth 1 -type d -name 'pi_*') )
 
 # Number of runs per project
 runs=10
