@@ -17,13 +17,9 @@ By default, they are set to **24 threads** and **1,000,000,000 points**.
 To ensure the code runs correctly on your system, manually set the number of threads in each implementation.  
 
 In each \`src/main.rs\` file, update:  
-\`\`\`rust
 let num_threads = <your CPU thread count>;
-\`\`\`
 You can also change the total number of points:  
-\`\`\`rust
 let total_points: u64 = <your desired number of points>;
-\`\`\`
 
 ### **Benchmarking**
 A **benchmarking Bash script** is included in this repository. It:  
