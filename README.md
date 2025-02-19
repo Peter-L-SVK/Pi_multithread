@@ -9,7 +9,7 @@ Programms are set to !!!24 threads!!! and 1_000_000_000 points!!!
 To ensure code working properly, set number of threads manually in main.rs inside each of src directory: < let num_threads = >
 according to number of threads on your CPU model
 
-You can also change number of points manually in same fasion with: < let total_points: u64 = > 
+You can also change number of points manually in same fasion with: < let total_points: u64 = > (currently set to 1 bilion)
 
 For benchmark, you can use becnchmarking Bash script in this repo, which rans all of four examples ten times and averaging their run time.
 This example was created Linux Fedora 40.
