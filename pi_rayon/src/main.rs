@@ -12,7 +12,7 @@ fn main() {
     println!("Calculation of Pi places:");
     // Use Rayon's parallel iterator to process points in parallel
     (0..num_threads).into_par_iter().for_each(|_| {
-        let mut rng = rand::thread_rng();
+        let mut rng = rand::rng();
         let mut local_hits: u64 = 0;
 
         for _ in 0..(total_points / num_threads as u64) {

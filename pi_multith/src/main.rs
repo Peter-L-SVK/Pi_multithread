@@ -15,7 +15,7 @@ fn main() {
     for _ in 0..num_threads {
         let hits = Arc::clone(&hits);
         let handle = thread::spawn(move || {
-            let mut rng = rand::thread_rng();
+            let mut rng = rand::rng();
             let mut local_hits: u64 = 0;
 
             for _ in 0..points_per_thread {
