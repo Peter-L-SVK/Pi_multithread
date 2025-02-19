@@ -32,5 +32,5 @@ fn main() {
     let hits = hits.into_inner().unwrap();
     let pi = 4.0 * (hits as f64) / (total_points as f64);
 
-    println!("Estimated value of π: {:.100}", pi); // Print with 15 decimal places
+    println!("Estimated value of π: {:.100}", pi); // Print with 100 decimal places
 }
