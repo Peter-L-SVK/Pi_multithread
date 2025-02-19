@@ -17,4 +17,5 @@ Script is prebuilding each program by raning cargo and only mesuring the runtime
 Dependencies: \
 - Cargo\
 - Rust langugage\
-\This example was created Linux Fedora 40.
+
+This example was created Linux Fedora 40.
