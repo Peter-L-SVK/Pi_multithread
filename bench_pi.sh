@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Define project directories dynamically
 projects=( $(find . -maxdepth 1 -type d -name 'pi_*') )
