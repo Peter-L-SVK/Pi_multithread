@@ -8,38 +8,38 @@ Run 5: 0.370 seconds
 Run 6: 0.370 seconds
 Run 7: 0.370 seconds
 Run 8: 0.370 seconds
-Run 9: 0.380 seconds
+Run 9: 0.370 seconds
 Run 10: 0.370 seconds
-Average real time for pi_multith: .372 seconds
-Computed π value (last run): Estimated value of π: 3.1416083079999999050357928354060277342796325683593750000000000000000000000000000000000000000000000000
+Average real time for pi_multith: .371 seconds
+Computed π value (last run): Estimated value of π: 3.1416399120000000344532509188866242766380310058593750000000000000000000000000000000000000000000000000
 -----------------------------------
 Running ./pi_rayon_atomic64...
 Run 1: 0.390 seconds
 Run 2: 0.390 seconds
 Run 3: 0.390 seconds
-Run 4: 0.380 seconds
-Run 5: 0.390 seconds
+Run 4: 0.390 seconds
+Run 5: 0.380 seconds
 Run 6: 0.380 seconds
-Run 7: 0.390 seconds
-Run 8: 0.390 seconds
-Run 9: 0.380 seconds
-Run 10: 0.400 seconds
-Average real time for pi_rayon_atomic64: .388 seconds
-Computed π value (last run): Estimated value of π: 3.1415789360000001551043169456534087657928466796875000000000000000000000000000000000000000000000000000
+Run 7: 0.380 seconds
+Run 8: 0.370 seconds
+Run 9: 0.390 seconds
+Run 10: 0.390 seconds
+Average real time for pi_rayon_atomic64: .385 seconds
+Computed π value (last run): Estimated value of π: 3.1415712159999999997239683580119162797927856445312500000000000000000000000000000000000000000000000000
 -----------------------------------
 Running ./pi_rayon...
-Run 1: 0.380 seconds
+Run 1: 0.370 seconds
 Run 2: 0.390 seconds
-Run 3: 0.390 seconds
-Run 4: 0.380 seconds
-Run 5: 0.380 seconds
+Run 3: 0.380 seconds
+Run 4: 0.390 seconds
+Run 5: 0.390 seconds
 Run 6: 0.390 seconds
 Run 7: 0.390 seconds
-Run 8: 0.390 seconds
+Run 8: 0.380 seconds
 Run 9: 0.390 seconds
-Run 10: 0.400 seconds
-Average real time for pi_rayon: .388 seconds
-Computed π value (last run): Estimated value of π: 3.1415194880000001376174623146653175354003906250000000000000000000000000000000000000000000000000000000
+Run 10: 0.390 seconds
+Average real time for pi_rayon: .386 seconds
+Computed π value (last run): Estimated value of π: 3.1415019960000001297828475799178704619407653808593750000000000000000000000000000000000000000000000000
 -----------------------------------
 Running ./pi_rayon_atomic64_xoshiro...
 Run 1: 0.150 seconds
