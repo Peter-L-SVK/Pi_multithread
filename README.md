@@ -30,7 +30,7 @@ let total_points: u64 = <your desired number of points>;
 
 ## **Benchmarking**
 A **benchmarking Bash script** is included in this repository. It:  
-- Now portable across Linux,FreeBSD and MacOS
+- Now portable across Linux, FreeBSD and MacOS
 - Runs all four implementations **10 times**  
 - Averages their execution time  
 - Pre-builds each program using `cargo` and measures only the **binary runtime**
