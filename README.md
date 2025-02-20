@@ -42,4 +42,5 @@ A **benchmarking Bash script** is included in this repository. It:
 Make sure you have the following installed:  
 - **Rust and Cargo** (Rust’s package manager)  
 - A **Unix-like environment** (Linux, FreeBSD or MacOS)
-- Tested on **Fedora 40**  
+
+Tested on **Fedora 40**  
