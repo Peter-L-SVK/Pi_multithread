@@ -41,6 +41,6 @@ A **benchmarking Bash script** is included in this repository. It:
 ## **Dependencies**
 Make sure you have the following installed:  
 - **Rust and Cargo** (Rust’s package manager)  
-- A **Unix-like environment** (Linux, FreeBSD or MacOS) for the bash script, Rustc programs work on Windows 
+- A **Unix-like environment** (Linux, FreeBSD or MacOS) for the bash script, Rust programs work on Windows 
 
 Tested on **Fedora 40**  
